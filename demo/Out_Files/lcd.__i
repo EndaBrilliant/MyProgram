@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 --li -g -O0 -Otime --apcs=interwork -I.\ACH512\driver -I.\ACH512\system -I.\APP -I.\CMSIS\Include -I.\COMMON -I E:\keil4\ARM\RV31\Inc -I E:\keil4\ARM\CMSIS\Include -I E:\keil4\ARM\Inc\NXP\LPC13xx -o ".\Out_Files\lcd.o" --omf_browse ".\Out_Files\lcd.crf" --depend ".\Out_Files\lcd.d" "ACH512\driver\lcd.c"

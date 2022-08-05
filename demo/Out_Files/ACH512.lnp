@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\out_files\startup.o" ".\out_files\system_ach512.o" ".\out_files\uart.o" ".\out_files\gpio.o" ".\out_files\timer.o" ".\out_files\iic.o" ".\out_files\lcd.o" ".\out_files\iic_sx.o" ".\out_files\common.o" ".\out_files\main.o" ".\out_files\app.o" ".\out_files\timer0.o" --strict --scatter ".\Out_Files\ACH512.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ACH512.map" -o ".\Out_Files\ACH512.axf"
